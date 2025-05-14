@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation bar</title>
+    <style>
+
+         *{
+            margin: 0%;
+            padding: 0;
+            scroll-behavior: smooth;
+         }
+
+        li{
+            display: inline;
+            padding: inherit;
+            padding: 10px;
+            
+        }
+        nav{
+            border: solid;
+            background-color: rgb(51, 126, 129);
+            padding: 30px;
+        
+        }
+       div{
+        margin:0;
+        padding:0px;
+        height:1000px;
+        width:100%;
+        background-color: rgb(179, 105, 232);
+        font-size: x-large;
+        
+    
+       }
+
+       .top{
+   position: fixed;
+   width: 50px;
+   height: 50px;
+   background: wheat;
+   bottom:40px;
+   right: 50px;
+   text-decoration: none;
+   text-align: center;
+   line-height: 50px;
+   color: white;
+   font-size: 22px;
+
+
+
+}
+
+      
+       
+    </style>
+</head>
+<body>
+    <nav>
+        <ul type="none">
+            <li>Home</li>
+            <li><a href="#play">play</a></li>
+            <li><a href="#Category">Category</a></li>
+            <li><a href="#Cart">Cart</a></li>
+        </ul>
+    </nav>
+    
+    <div><p>Home</p></div>
+    <div id="play"><p>play</p></div>
+    <div id="Category"><p>Category</p></div>
+    <div id="Cart"><p>Cart</p></div>
+
+    <a  class="top" href="#"><i class="fa-solid fa-arrow-up-long"></i></a>
+
+
+    
+
+</body>
+</html>   
